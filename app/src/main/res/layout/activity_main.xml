@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#001E3D"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+
+        <EditText
+            android:id="@+id/input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dp"
+            android:hint="Enter your word here! brother"
+            android:padding="20dp"
+            android:textColor="@android:color/white"
+            android:textColorHint="@android:color/white"
+            android:textStyle="italic" />
+
+        <Button
+            android:id="@+id/add"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tambah"
+            android:textColorHint="@android:color/white" />
+
+        <Button
+            android:id="@+id/tampil"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="tampil" />
+
+        <Button
+            android:id="@+id/ubah"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="edit" />
+
+        <Button
+            android:id="@+id/hapus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="hapus" />
+
+        <TextView
+            android:id="@+id/hasil"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:padding="30dp"
+            android:text="Result"
+            android:textAlignment="center"
+            android:textColor="@android:color/white"
+            android:textSize="30dp"
+            android:theme="@android:style/Animation" />
+
+
+
+<RelativeLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="70dp"
+            android:layout_alignParentBottom="true"
+            android:orientation="horizontal">
+
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/icon" />
+
+            <TextView
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:text="Warning!!\nAplikasi Percobaan  "
+                android:textColor="@android:color/white"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+</RelativeLayout>
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
